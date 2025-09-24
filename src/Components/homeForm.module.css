@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+/* LoginForm.css */
+
+.loginFormContainer {
+    width: 438px;
+    height: 534px;
+    top: 161px;
+    left: 501px;
+    border-radius: 18px;
+    opacity: 1;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 35px 20px rgba(11, 63, 119, 0.2); /* Adiciona uma sombra suave */
+
+    justify-content: center; /* Centralizando horizontalmente */
+    align-items: center; /* Centralizando verticalmente */
+    display: flex;
+    position: absolute;
+
+    /* Centralizar na página inicialmente */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.loginFormLogo {
+   /* Adicione estilos para centralizar a imagem e aumentar proporcionalmente */
+   position: absolute;
+   top: -50px; /* Ajuste conforme necessário para posicionar a imagem acima do formulário */
+   width: 350px; /* Largura original */
+   height: 115px;
+   top: 60px;
+   left: 50%; /* Centraliza horizontalmente */
+   transform: translateX(-50%); /* Centraliza a partir do centro */
+    
+}
+  
+.loginForm {
+    width:385.88px ;
+    height: 288px;
+    top: 205.88px;
+    left:25.88px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 150px;
+}
+  
+.loginFormLabel {
+    width: 385.88px;
+    height: 23px;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 3;
+    color: #262626;
+    font-family: sans-serif;
+    margin: 0.3rem;
+}
+  
+.loginFormInput {
+    width: Fixed (385.88px);
+    height: 54.25px;
+    padding:18px, 18px, 20.25px,18px;
+    gap: 13.5;
+    background-color: #F1F1F1;
+    
+    border: none;
+    border-radius: 9px;
+}
+.loginFormInput::placeholder {
+  font-family: 'Arial', sans-serif; /* Define a fonte desejada */
+  
+  font-size: 15.75px; /* Define o tamanho da fonte */
+  color: #999999; /* Define a cor do texto do placeholder */
+}
+  
+.loginFormButton {
+    width: 385.88px;
+    height: 54px;
+    top: 439.88px;
+    left: 25.88px;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 16px;
+    background-color: #02274F;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    animation-duration: 300ms ;
+}
+  
